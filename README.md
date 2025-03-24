@@ -81,7 +81,7 @@ Tipp: Zur Umrechnung auf Sekunden beim Umrechenfaktor für die Zeit 60 eingeben.
 
 # Kennwerte writer
 
-Dieses Tool kann Dateien erstellen, die die errechneten Materialkennwerte für Stahl und Beton enthalten. Dabei wird die Dichte, die spezifische Wärmekapazität und die Wärmeleitfähigkeit in Abhängigkeit von der Temperatur berechnet und in der Datei ausgegeben.
+Dieses Tool kann Dateien erstellen, die die errechneten Materialkennwerte für Stahl, Edelstahl und Beton enthalten. Dabei wird die Dichte, die spezifische Wärmekapazität und die Wärmeleitfähigkeit in Abhängigkeit von der Temperatur berechnet und in der Datei ausgegeben. Die Temperaturspanne für die Gültigkeit der errechneten Werte ist zwischen 20°C bis 1200°C.
 
 Je nach Anforderungen können die Einheiten mit Umrechenfaktoren umgerechnet werden. Das Zahlenformat entspricht dabei dem des Brandkurven wirters.
 
