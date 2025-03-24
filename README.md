@@ -58,12 +58,7 @@ make
 
 Das Tools Brandkurven kann von der Einheits-Temperaturzeitkurve, der Externen Brandkurven und der Hydro-Karbonbrandkurve die Gastemperatur, die nach einer bestimmten Zeit erreicht ist berechnen. Ebenfalls kann die Zeit nach der die Gastemperatur erreicht wird iteriert werden.
 
-Um das Program zu starten kann auf die Compilierte *.exe geklickt werden. Dass sollte ein Terminal sich öffnen und die Optionen gewählt werden. Falls dies nicht funktioniert kann man das Terminal im Ordner öffnen und das Program starten.
-
-```bash
-
-
-Um das Program zu starten kann auf die Compilierte *.exe geklickt werden. Dass sollte ein Terminal sich öffnen und die Optionen gewählt werden. Falls dies nicht funktioniert kann man das Terminal im Ordner öffnen und das Program starten.
+Um das Program zu starten kann auf die Compilierte brandkurven.exe geklickt werden. Dass sollte ein Terminal sich öffnen und die Optionen gewählt werden. Falls dies nicht funktioniert kann man das Terminal im Ordner öffnen und das Program starten.
 
 ```bash
 ./brandkurven.exe
