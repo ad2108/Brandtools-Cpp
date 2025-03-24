@@ -5,6 +5,10 @@ float dichte_stahl (float temp){
   return 7850.0;
 }
 
+float dichte_edelstahl(float temp){
+  return 7850.0;
+}
+
 float dichte_beton (float temp){
   if (temp <= 115.){
     return 2400.0;
@@ -24,6 +28,10 @@ float leitfaehigkeit_stahl (float temp) {
   } else {
     return 27.3;
   }
+}
+
+float leitfaehigkeit_edelstahl(float temp){
+  return 14.6 + 1.27e-2 * temp;
 }
 
 float leitfaehigkeit_beton_oben (float temp) {
@@ -47,6 +55,10 @@ float kapazitaet_stahl (float temp) {
   }
 }
 
+float kapazitaet_edelstahl(float temp){
+  return 450. + 0.28 * temp - 2.91e-4 * temp * temp + 1.34e-7 * temp * temp * temp;
+}
+
 float kapazitaet_beton (float temp) {
   if (temp <= 100.) {
     return 900.;
@@ -58,3 +70,4 @@ float kapazitaet_beton (float temp) {
     return 1100.;
   }
 }
+

@@ -39,10 +39,13 @@ int main() {
   
   myfile << "Temperatur[°C * " << faktorx << "]"  
          << separator << "Dichte-Stahl[kg/m³ * " << faktory << "]"
+         << separator << "Dichte-Edelstahl[kg/m³ * " << faktory << "]"
          << separator << "Dichte-Beton[kg/m³ * " << faktory << "]"
          << separator << "Wärmespeicherkapazität-Stahl[J/kgK* " << faktorz << "]"
+         << separator << "Wärmespeicherkapazität-Edelstahl[J/kgK* " << faktorz << "]"
          << separator << "Wärmespeicherkapazität-Beton[J/kgK* " << faktorz << "]"
          << separator << "Wärmeleitfähigkeit_Stahl[W/mK* " << faktora << "]"
+         << separator << "Wärmeleitfähigkeit_Edelstahl[W/mK* " << faktora << "]"
          << separator << "Wärmeleitfähigkeit_Beton-oberst[W/mK* " << faktora << "]"
          << separator << "Wärmeleitfähigkeit_Beton-unterst[W/mK* " << faktora << "]"
          << '\n' << '\n';
@@ -52,10 +55,13 @@ int main() {
   while(count <= end) {
     myfile << count * faktorx 
            << separator << dichte_stahl(count) * faktory
+           << separator << dichte_edelstahl(count) * faktory
            << separator << dichte_beton(count) * faktory
            << separator << kapazitaet_stahl(count) * faktorz
+           << separator << kapazitaet_edelstahl(count) * faktorz
            << separator << kapazitaet_beton(count) * faktorz
            << separator << leitfaehigkeit_stahl(count) * faktora
+           << separator << leitfaehigkeit_edelstahl(count) * faktora
            << separator << leitfaehigkeit_beton_oben(count) * faktora
            << separator << leitfaehigkeit_beton_unten(count) * faktora
            << '\n';
@@ -66,3 +72,4 @@ int main() {
   
   return EXIT_SUCCESS;
 }
+
