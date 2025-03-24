@@ -22,9 +22,9 @@ int main() {
   std::cin >> end;
   std::cout << "Schritt:" << std::endl;
   std::cin >> step;
-  std::cout << "Umrechnungsfaktor für Zeit:" << std::endl;
+  std::cout << "Umrechnungsfaktor fuer Zeit:" << std::endl;
   std::cin >> faktorx;
-  std::cout << "Umrechnungsfaktor für Temperatur:" << std::endl;
+  std::cout << "Umrechnungsfaktor fuer Temperatur:" << std::endl;
   std::cin >> faktory;
   
   std::fstream myfile;

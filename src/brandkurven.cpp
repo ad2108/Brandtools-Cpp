@@ -58,7 +58,7 @@ int main() {
                 << std::endl;
       break;
     default:
-      std::cerr << "Keine gültige Option gewählt" << std::endl;
+      std::cerr << "Keine gueltige Option gewaehlt" << std::endl;
       return EXIT_FAILURE;
   }
   

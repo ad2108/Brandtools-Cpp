@@ -24,13 +24,13 @@ int main() {
   std::cin >> end;
   std::cout << "Schritt:" << std::endl;
   std::cin >> step;
-  std::cout << "Umrechnungsfaktor für Temperatur:" << std::endl;
+  std::cout << "Umrechnungsfaktor fuer Temperatur:" << std::endl;
   std::cin >> faktorx;
-  std::cout << "Umrechnungsfaktor für Dichte:" << std::endl;
+  std::cout << "Umrechnungsfaktor fuer Dichte:" << std::endl;
   std::cin >> faktory;
-  std::cout << "Umrechnungsfaktor für Wärmespeicherkapazität:" << std::endl;
+  std::cout << "Umrechnungsfaktor fuer Waermespeicherkapazitaet:" << std::endl;
   std::cin >> faktorz;
-  std::cout << "Umrechnungsfaktor für Wärmeleitfähigkeit:" << std::endl;
+  std::cout << "Umrechnungsfaktor fuer Waermeleitfaehigkeit:" << std::endl;
   std::cin >> faktora;
 
   
