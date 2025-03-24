@@ -68,3 +68,32 @@ Um das Program zu starten kann auf die Compilierte *.exe geklickt werden. Dass s
 ```bash
 ./brandkurven.exe
 ```
+
+# Brandkurven writer
+
+Dieses Tools kann Dateien erstellen, die die errechneten Werte der Brandkurven enthalten. Für alle Zahlenwerte können Gleitkommazahlen verwendet werden.(Achtung , wird nicht akzeptiert!)
+
+Zahlenformat: 1 = 1.0 = 1.0e1
+
+Tipp: Um eine *.csv zu erzeugen wird als Trennzeichen ein ; gesetzt.
+
+Einheiten:
+
+0. Zeit min.
+1. Temperatur °C
+
+Tipp: Zur Umrechnung auf Sekunden beim Umrechenfaktor für die Zeit 60 eingeben.
+
+# Kennwerte writer
+
+Dieser Tools kann Dateien erstellen, die die errechneten Materialkennwerte für Stahl und Beton enthalten. Dabei wird die Dichte, die spezifische Wärmekapazität und die Wärmeleitfähigkeit in Abhängigkeit von der Temperatur berechnet und in der Datei ausgegeben.
+
+Je nach Anforderungen können die Einheiten mit Umrechenfaktoren umgerechnet werden. Das Zahlenformat entspricht dabei dem des Brandkurven wirters.
+
+Einheiten:
+
+0. Temperatur °C
+1. Dichte kg/m³
+2. spezifische Wärmekapazität J/kgK
+3. Wärmeleitfähigkeit W/mK
+
