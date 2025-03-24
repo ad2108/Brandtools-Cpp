@@ -56,6 +56,10 @@ make
 
 # Brandkurven
 
+![image](image/brandkurven.png)
+
+*Abbildung 1: Screenshot brandkurven.exe*
+
 Das Tool Brandkurven kann von der Einheits-Temperaturzeitkurve, der Externen Brandkurve und der Hydro-Karbonbrandkurve die Gastemperatur, die nach einer bestimmten Zeit erreicht ist berechnen. Ebenfalls kann die Zeit nach der eine bestimmte Gastemperatur erreicht wird iteriert werden.
 
 Um das Program zu starten kann auf die Compilierte brandkurven.exe geklickt werden. Dann sollte ein Terminal sich öffnen und die Optionen gewählt werden. Falls dies nicht funktioniert kann man das Terminal im Ordner öffnen und das Program wie folgt starten:
@@ -66,11 +70,15 @@ Um das Program zu starten kann auf die Compilierte brandkurven.exe geklickt werd
 
 # Brandkurven writer
 
+![image](image/brandkurven_writer.png)
+
+*Abbildung 2: Screenshot brandkurven_writer.exe*
+
 Dieses Tool kann Dateien erstellen, die die errechneten Werte der Brandkurven enthalten. Für alle Zahlenwerte können Gleitkommazahlen verwendet werden.(Achtung , wird nicht akzeptiert!)
 
 Zahlenformat: 1 = 1.0 = 1.0e1
 
-Tipp: Um eine *.csv zu erzeugen wird als Trennzeichen ein ; gesetzt.
+Tipp: Um eine \*.csv zu erzeugen wird als Trennzeichen ein ; gesetzt.
 
 Einheiten:
 
@@ -80,6 +88,10 @@ Einheiten:
 Tipp: Zur Umrechnung auf Sekunden beim Umrechenfaktor für die Zeit 60 eingeben.
 
 # Kennwerte writer
+
+![image](image/kennwerte_writer.png)
+
+*Abbildung 3: Screenshot kennwerte_writer.exe*
 
 Dieses Tool kann Dateien erstellen, die die errechneten Materialkennwerte für Stahl, Edelstahl und Beton enthalten. Dabei wird die Dichte, die spezifische Wärmekapazität und die Wärmeleitfähigkeit in Abhängigkeit von der Temperatur berechnet und in der Datei ausgegeben. Die Temperaturspanne für die Gültigkeit der errechneten Werte ist zwischen 20°C bis 1200°C.
 
