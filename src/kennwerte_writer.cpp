@@ -51,14 +51,14 @@ int main() {
   
   while(count <= end) {
     myfile << count * faktorx 
-    << separator << dichte_stahl(count) * faktory
-    << separator << dichte_beton(count) * faktory
-    << separator << kapazitaet_stahl(count) * faktorz
-    << separator << kapazitaet_beton(count) * faktorz
-    << separator << leitfaehigkeit_stahl(count) * faktora
-    << separator << leitfaehigkeit_beton_oben(count) * faktora
-    << separator << leitfaehigkeit_beton_unten(count) * faktora
-    << '\n';
+           << separator << dichte_stahl(count) * faktory
+           << separator << dichte_beton(count) * faktory
+           << separator << kapazitaet_stahl(count) * faktorz
+           << separator << kapazitaet_beton(count) * faktorz
+           << separator << leitfaehigkeit_stahl(count) * faktora
+           << separator << leitfaehigkeit_beton_oben(count) * faktora
+           << separator << leitfaehigkeit_beton_unten(count) * faktora
+           << '\n';
 
     count += step;
   }
