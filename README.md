@@ -56,7 +56,7 @@ make
 
 # Brandkurven
 
-![image](image/brandkurven.png)
+![image](images/brandkurven.png)
 
 *Abbildung 1: Screenshot brandkurven.exe*
 
@@ -70,7 +70,7 @@ Um das Program zu starten kann auf die Compilierte brandkurven.exe geklickt werd
 
 # Brandkurven writer
 
-![image](image/brandkurven_writer.png)
+![image](images/brandkurven_writer.png)
 
 *Abbildung 2: Screenshot brandkurven_writer.exe*
 
@@ -89,7 +89,7 @@ Tipp: Zur Umrechnung auf Sekunden beim Umrechenfaktor für die Zeit 60 eingeben.
 
 # Kennwerte writer
 
-![image](image/kennwerte_writer.png)
+![image](images/kennwerte_writer.png)
 
 *Abbildung 3: Screenshot kennwerte_writer.exe*
 
