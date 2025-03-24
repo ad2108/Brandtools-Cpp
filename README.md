@@ -48,7 +48,7 @@ Msys2(Windows):
 pacman -S make
 ```
 
-Nach der Installation von Make kann das Projekt automatisiert werden. dafür wird im Ordner mit der Makefile das Terminal geöffnet und make eingetippt. Dannach sollte die Compilation beginnen.
+Nach der Installation von Make kann das Projekt automatisiert werden. Dafür wird im Ordner mit der Makefile das Terminal geöffnet und make eingetippt. Dannach sollte die Compilation beginnen. Falls sich make nicht über das Terminal öffnen lässt ist es wichtig zu überprüfen, ob die TEMP Variablen richtig gesetzt sind.
 
 ```bash
 make
