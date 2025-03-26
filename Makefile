@@ -1,5 +1,5 @@
 #Brandtools C++
-.DEFAULT_GOAL := all
+DEFAULT_GOAL := all
 CXX = g++
 CXXFLAGS = -static
 
