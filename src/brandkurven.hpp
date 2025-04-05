@@ -1,4 +1,16 @@
-//Brandkurven 
+/*
+Brandkurven Header
+Author: ad2108
+Version: 1.0
+Date: 2025-04-05
+License: MIT
+
+Description:
+    A simple header containing functions for 3 Temperaturecurves:
+      1. Einheits-Temperaturzeitkurve
+      2. Externe Brandkurve
+      3. Hydro-Karbon Brandkurve
+*/
 
 #include <cmath>
 

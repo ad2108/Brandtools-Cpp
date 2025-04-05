@@ -1,4 +1,16 @@
-//Brandkurven writer
+/*
+Brandkurven writer
+Author: ad2108
+Version: 1.0
+Date: 2025-04-05
+License: MIT
+
+Description:
+    A simple script that calculates and writes values for 3 Temperaturecurves:
+      1. Einheits-Temperaturzeitkurve
+      2. Externe Brandkurve
+      3. Hydro-Karbon Brandkurve
+*/
 
 #include <iostream>
 #include <cstdlib>

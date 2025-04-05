@@ -1,4 +1,16 @@
-//Kennwerte Stahl und Beton
+/*
+Kennwerte Header
+Author: ad2108
+Version: 1.0
+Date: 2025-04-05
+License: MIT
+
+Description:
+    A simple header containing functions Materialkennwerte:
+      1. Stahl
+      2. Edelstahl
+      3. Beton
+*/
 
 //Dichte
 float dichte_stahl (float temp){
